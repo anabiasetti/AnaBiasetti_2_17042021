@@ -56,3 +56,14 @@ header {
 #menu_recherche h2 {
   margin-bottom: 0;
 }
+footer a {
+  display: block;
+  text-decoration: none;
+}
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 251px 48px 28px;
+}
