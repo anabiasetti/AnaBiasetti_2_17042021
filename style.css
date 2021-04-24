@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }*/
+
 body {
   font-family: "Raleway", sans-serif;
   color: black;
@@ -10,21 +11,26 @@ body {
 
 .logo {
   width: 120px;
-  margin-left: 0px;
-  margin-bottom: -51px;
-}
-header {
-  background-color: white;
 }
 
-.list {
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   flex-direction: row;
   align-content: flex-start;
   justify-content: flex-end;
   list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 16px;
 }
 
 #login {
@@ -38,7 +44,7 @@ header {
   color: black;
 }
 
-#hebergements a {
+#hebergements {
   color: #0065fc;
-  text-decoration: overline;
+  border-top: solid 2px;
 }
