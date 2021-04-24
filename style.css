@@ -48,3 +48,11 @@ header {
   color: #0065fc;
   border-top: solid 2px;
 }
+
+#menu_recherche {
+  margin-top: 38px;
+}
+
+#menu_recherche h2 {
+  margin-bottom: 0;
+}
