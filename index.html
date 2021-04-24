@@ -9,6 +9,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/5cc030f6c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="petite_resolution.css" />
+    <!-- Pour ceux qui ont une résolution inférieure à 768px -->
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img class="logo" src="images/Reservia@3x.png" alt="reservia_logo" />
+      <nav>
+        <ul class="list">
+          <li id="hebergements"><a href="#section_hebergements">Hébergements</a></li>
+          <li><a href="#section_activites" id="activites">Activités</a></li>
+          <li><a href="#section_inscription" id="login">S'inscrire</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <section id="sectionrecherche">
+      <h2>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p>En plein centre ville ou en plein nature.</p>
+      <div>
+       <form method="post" action="traitement php">
+        <input type="search" name="recherche" id="recherche" placeholder="Marseille, France">
+        <!--<label for="recherche">Rechercher</label>-->
+        <input type="button" value="Rechercher" />
+     
+    </form>
+  </div>
+      
+      <h2>Filtres</h2>
+    </section>
+    <section id="section_hebergements">
+      
+    </section>
+    <section id="populaires"></section>
+    
+
+  <section id="section_activites">
+    <div>
+
+    </div>
+  </section>
+
+    <footer>
+      <section id="apropos">
+      <h3>A propos</h3>
+      <span>Foncionnement du site</span>
+      <span>Conditions générales de vente</span>
+      <span>Données de confidentialité</span>
+    </section>
+    <section id="noshebergements">
+      <h3>Nos hébergements</h3>
+      <span>Charte qualité</span>
+      <span>Soumettre votre hôtel</span>
+    </section>
+    <section id="Assistance">
+      <h3>Assistance</h3>
+      <span>Centre d'aide</span>
+      <span>Nous conctacter</span>
+    </section>
+    </footer>
+  </body>
 </html>
