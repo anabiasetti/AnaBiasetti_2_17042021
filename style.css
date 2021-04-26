@@ -8,7 +8,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: black;
 }
-
+/*Header*/
 .logo {
   width: 120px;
 }
@@ -49,6 +49,8 @@ header {
   border-top: solid 2px;
 }
 
+/* Section A: Recherche*/
+
 #menu_recherche {
   margin-top: 38px;
 }
@@ -56,15 +58,83 @@ header {
 #menu_recherche h2 {
   margin-bottom: 0;
 }
-
-/*.fas fa-map-marker-alt {
-  background-color: #f2f2f2;
-}*/
-/* Style buttons */
-#search {
-  background-color: #deebff; /* Blue claire background */
+/* Style the input container */
+* {
+  box-sizing: border-box;
 }
 
+/* Style the input container */
+.input_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+/* Style buttons */
+
+#search {
+  border-radius: 12px;
+}
+/* Style the form icons */
+#place_icon {
+  background-color: #deebff;
+  box-sizing: border-box;
+  display: inline-block;
+  color: black;
+  /*min-height: 60px;
+  line-height: 40px;
+  padding: 10px;
+  margin: 5px;
+  border-left radius: 12px;*/
+}
+#recherche {
+  font-size: 16px bold;
+  margin-top: 1px;
+}
+/* Set a style for the submit button */
+
+.btn_search {
+  background-color: #0065fc;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 8px;
+  text-decoration: none;
+  margin-left: -3px;
+}
+
+/* nav filtres-bar:economique, familial,romantique, animaux*/
+
+#filtres_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#filtres_bar i {
+  color: #0065fc;
+}
+
+i {
+  background-color: #deebff;
+  border-radius: 50%;
+  border: 1px solid #deebff;
+  padding: 10px;
+}
+
+#filtres_bar div {
+  display: inline-block;
+  border: solid 2px #d9d9d9;
+  border-radius: 22px;
+}
+
+#disponibilité i {
+  color: #0065fc;
+  background-color: white;
+}
+
+/*Footer*/
 footer a {
   display: block;
   text-decoration: none;

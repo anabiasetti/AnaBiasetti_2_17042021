@@ -27,19 +27,39 @@
     <nav id="menu_recherche">
       <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
       <span>En plein centre ville ou en plein nature.</span>
-      <div class>
-        <form method="post" action="traitement php">
-          <button id="search">
-            <i class="fas fa-map-marker-alt"></i>
-          </button>
-          <input type="search" name="recherche" id="recherche" placeholder="Marseille, France" />
+      
+        <form id="search" method="post" action="traitement php">
+          <div class="input_container">
+          <i class="fas fa-map-marker-alt" id="place_icon"></i>
+          <input type="text" name="recherche" id="recherche" placeholder="Marseille, France" />
           <!--<label for="recherche">Rechercher</label>-->
-          <input type="button" value="Rechercher" />
+          <input class="btn_search" type="button" value="Rechercher" />
         </form>
       </div>
-
-      <h2>Filtres</h2>
     </nav>
+
+    <nav id="filtres_bar">
+      <h3>Filtres</h3>
+      <div id="economique">
+        <span><i class="fas fa-money-bill-wave"></i>Economique</span>
+      </div>
+      <div id="familial">
+        <span><i class="fas fa-child"></i>Familial</span>
+      </div>
+      <div id="romantique">
+        <span><i class="fas fa-heart"></i>Romantique</span>
+      </div>
+      <div id="animaux">
+        <span><i class="fas fa-dog"></i>Animaux autorisés</span>
+      </div>
+    </nav>
+    <div id="disponibilité">
+      <span>
+        <i class="fas fa-info"></i>
+        Plus de 500 logements sont disponibles dans cette ville
+      </span>
+    </div>
+
     <section id="section_hebergements"></section>
     <section id="populaires"></section>
 
