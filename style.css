@@ -58,10 +58,6 @@ header {
 #menu_recherche h2 {
   margin-bottom: 0;
 }
-/* Style the input container */
-* {
-  box-sizing: border-box;
-}
 
 /* Style the input container */
 .input_container {
@@ -70,28 +66,21 @@ header {
   margin-bottom: 24px;
 }
 
-/* Style buttons */
+/* Style icons */
 
-#search {
-  border-radius: 12px;
-}
-/* Style the form icons */
 #place_icon {
   background-color: #deebff;
   box-sizing: border-box;
   display: inline-block;
   color: black;
-  /*min-height: 60px;
-  line-height: 40px;
-  padding: 10px;
-  margin: 5px;
-  border-left radius: 12px;*/
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: #deebff solid;
 }
+/* Set a style for the submit button Rechercher */
 #recherche {
-  font-size: 16px bold;
   margin-top: 1px;
 }
-/* Set a style for the submit button */
 
 .btn_search {
   background-color: #0065fc;
@@ -108,30 +97,39 @@ header {
 #filtres_bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 24px;
 }
 
-#filtres_bar i {
+.filtre i {
   color: #0065fc;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+.filtre span {
+  margin-right: 14px;
 }
 
-i {
+.filtre i,
+#place_icon {
   background-color: #deebff;
-  border-radius: 50%;
   border: 1px solid #deebff;
   padding: 10px;
 }
 
-#filtres_bar div {
+.filtre {
   display: inline-block;
   border: solid 2px #d9d9d9;
   border-radius: 22px;
 }
 
-#disponibilité i {
+/*#disponibilité {}*/
+
+#info {
   color: #0065fc;
   background-color: white;
+  border-radius: 22px;
 }
 
 /*Footer*/
