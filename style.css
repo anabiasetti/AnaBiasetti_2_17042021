@@ -193,8 +193,19 @@ header {
 .etoiles3 i:nth-child(5) {
   color: grey;
 }
-
+/*Section Activites*/
+.image_activite {
+  width: 150px;
+  height: 200px;
+}
+#section_activites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 /*Footer*/
+
 footer a {
   display: block;
   text-decoration: none;
