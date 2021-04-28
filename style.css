@@ -132,13 +132,23 @@ header {
   border-radius: 22px;
 }
 
+/*div conteneur de #section_hebergements et #aside_populaires*/
+
+.hebergements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 /*section id="section_hebergements"*/
 .img {
   height: 90px;
   width: 200px;
 }
 
-#hotels {
+#hotels_a,
+#hotels_b {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -146,10 +156,26 @@ header {
   gap: 30px;
 }
 
-.description h3 {
+#section_hebergements,
+#aside_populaires {
+  background-color: #f2f2f2;
+  margin-bottom: 15px;
+}
+
+/*.description h3*/
+.nom {
   font-size: 16px;
   font-weight: 700;
 }
+
+.afficher {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 104px;
+}
+
 .prix {
   font-size: 12px;
   font-weight: 500;
@@ -160,6 +186,11 @@ header {
 }
 
 .etoiles4 i:last-child {
+  color: grey;
+}
+
+.etoiles3 i:nth-child(4),
+.etoiles3 i:nth-child(5) {
   color: grey;
 }
 
