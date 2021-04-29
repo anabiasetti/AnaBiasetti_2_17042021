@@ -194,16 +194,21 @@ header {
   color: grey;
 }
 /*Section Activites*/
-.image_activite {
-  width: 150px;
-  height: 200px;
-}
 #section_activites {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.image_activite {
+  width: 150px;
+  height: 200px;
+}
+.img_reduit {
+  height: 90px;
+  width: 200px;
+}
+
 /*Footer*/
 
 footer a {
