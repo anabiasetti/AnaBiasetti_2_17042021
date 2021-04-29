@@ -200,7 +200,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.image_activite {
+.image_unique {
   width: 150px;
   height: 200px;
 }
@@ -209,6 +209,15 @@ header {
   width: 200px;
 }
 
+.img_simple,
+.double_image {
+  height: 300px;
+  width: 200px;
+}
+
+.img_simple h3 {
+  margin-top: 43px;
+}
 /*Footer*/
 
 footer a {
@@ -221,4 +230,5 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding: 16px 251px 48px 28px;
+  margin-top: 130px;
 }
