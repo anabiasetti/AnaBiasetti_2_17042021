@@ -53,7 +53,7 @@ header {
   margin-top: 38px;
 }
 
-#menu_recherche h1 {
+.titre {
   margin-bottom: 0;
 }
 
@@ -277,6 +277,7 @@ header {
 footer a {
   display: block;
   text-decoration: none;
+  color: black;
 }
 footer {
   background-color: #f2f2f2;

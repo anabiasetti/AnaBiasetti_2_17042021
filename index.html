@@ -26,9 +26,9 @@
     </header>
     <!---->
     <main>
-      <article>
+      <div>
         <nav id="menu_recherche">
-          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <h2 class="titre">Trouvez votre hébergement pour des vacances de rêve</h2>
           En plein centre ville ou en plein nature.
 
           <form class="input_container" id="search" method="post">
@@ -37,7 +37,7 @@
             <input class="btn_search" type="button" value="Rechercher" />
           </form>
         </nav>
-      </article>
+      </div>
 
       <!--filtres: economique,familial,romantique, animaux autorisés-->
 
@@ -58,14 +58,14 @@
 
       <!--Section hebergements avec images-->
 
-      <section class="hebergements">
+      <div class="hebergements">
         <article id="article_hebergements">
           <h3>Hèbergements à Marseille</h3>
           <!--trois premieres images en dessus(en desktop) hotels_a-->
           <div id="hotels_a">
             <!--image 1-->
             <div class="content">
-              <img class="img" src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" />
+              <img class="img" src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge" />
               <article class="description">
                 <h3 class="nom">Auberge la Cannebière</h3>
                 <span class="prix">Nuit à partir de 24€</span>
@@ -80,7 +80,7 @@
             </div>
             <!--image 2-->
             <div class="content">
-              <img class="img" src="images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" />
+              <img class="img" src="images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hôtel du port" />
               <article class="description">
                 <h3 class="nom">Hôtel du port</h3>
                 <span class="prix">Nuit à partir de 52€</span>
@@ -95,7 +95,7 @@
             </div>
             <!--image 3-->
             <div class="content">
-              <img class="img" src="images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" />
+              <img class="img" src="images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hôtel les mouettes" />
               <article class="description">
                 <h3 class="nom">Hôtel Les mouettes</h3>
                 <span class="prix">Nuit à partir de 76€</span>
@@ -115,7 +115,7 @@
           <div id="hotels_b">
             <!--image 4-->
             <div class="content">
-              <img class="img" src="images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" />
+              <img class="img" src="images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hôtel de la mer" />
               <article class="description">
                 <h3 class="nom">Hôtel de la mer</h3>
                 <span class="prix">Nuit à partir de 46€</span>
@@ -130,7 +130,7 @@
             </div>
             <!--image 5-->
             <div class="content">
-              <img class="img" src="images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" />
+              <img class="img" src="images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier" />
               <article class="description">
                 <h3 class="nom">Auberge Le Panier</h3>
                 <span class="prix">Nuit à partir de 23€</span>
@@ -145,7 +145,11 @@
             </div>
             <!--image 6-->
             <div class="content">
-              <img class="img" src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" />
+              <img
+                class="img"
+                src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                alt="hôtel chez amina"
+              />
               <article class="description">
                 <h3 class="nom">Hôtel Chez Amina</h3>
                 <span class="prix">Nuit à partir de 96€</span>
@@ -171,7 +175,11 @@
           <!--image 1 en dessus-->
 
           <article class="description_populaires">
-            <img class="img_populaires" src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" />
+            <img
+              class="img_populaires"
+              src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+              alt="hôtel le soleil du matin"
+            />
             <div class="content_populaires">
               <h3 class="nom">Hôtel le soleil du matin</h3>
               <p class="prix">Nuit à partir de 128€</p>
@@ -187,12 +195,16 @@
 
           <!--image 2 en bas-->
           <article class="description_populaires">
-            <img class="img_populaires" src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg" />
+            <img
+              class="img_populaires"
+              src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg"
+              alt="chambre de hôtes"
+            />
 
             <div class="content_populaires">
               <h3 class="nom">Au cœur de l'eau</h3>
               <p>Chambres d'hôtes</p>
-              <span class="prix">Nuit à partir de 71€</span>
+              <p class="prix">Nuit à partir de 71€</p>
               <div class="etoiles etoiles4">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -206,7 +218,11 @@
           <!--image 3 dernière en dessus-->
 
           <article class="description_populaires">
-            <img class="img_populaires" src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" />
+            <img
+              class="img_populaires"
+              src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+              alt="hôtel bleu et blanc"
+            />
 
             <div class="content_populaires">
               <h3 class="nom">Hôtel Tout bleu et Blanc</h3>
@@ -221,43 +237,69 @@
             </div>
           </article>
         </aside>
-      </section>
+      </div>
+      <!--fermeture de div class="hebergements"-->
+
       <!--Section Activites-->
 
-      <div id="activites">
+      <div id="activites_proposes">
         <h2>Activités à Marseille</h2>
 
         <section id="section_activites">
           <!--<nav class="img_simple">-->
           <nav class="img_simple">
-            <img class="image_unique" src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" />
+            <img
+              class="image_unique"
+              src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+              alt="vieux port"
+            />
             <h3 class="nom">Vieux Port</h3>
           </nav>
 
           <!--Deux images dans une-->
           <div class="double_image">
             <nav>
-              <img class="img_reduit" src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" />
+              <img
+                class="img_reduit"
+                src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                alt="fort de pomégues"
+              />
               <h3 class="nom">Fort de pomégues</h3>
 
-              <img class="img_reduit" src="images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" />
+              <img
+                class="img_reduit"
+                src="images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                alt="iles de frioul"
+              />
               <h3 class="nom">Iles de Frioul</h3>
             </nav>
           </div>
 
           <!--<nav class="img_simple">-->
           <div class="img_simple">
-            <img class="image_unique" src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" />
+            <img
+              class="image_unique"
+              src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+              alt="parc calanques"
+            />
             <h3 class="nom">Parc National des Calanques</h3>
           </div>
 
           <!--Deux images dans une-->
           <div class="double_image">
             <nav>
-              <img class="img_reduit" src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" />
+              <img
+                class="img_reduit"
+                src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt="notre dame de la garde"
+              />
               <h3 class="nom">Notre-Dame-de-la-Garde</h3>
 
-              <img class="img_reduit" src="images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg" />
+              <img
+                class="img_reduit"
+                src="images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                alt="parc longchamp"
+              />
               <h3 class="nom">Parc Longchamp</h3>
             </nav>
           </div>
