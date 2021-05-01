@@ -1,8 +1,6 @@
-/* {
-  margin: 0px;
-  padding: 0px;
+* {
   box-sizing: border-box;
-}*/
+}
 
 body {
   font-family: "Raleway", sans-serif;
@@ -55,7 +53,7 @@ header {
   margin-top: 38px;
 }
 
-#menu_recherche h2 {
+#menu_recherche h1 {
   margin-bottom: 0;
 }
 
@@ -63,7 +61,7 @@ header {
 .input_container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 
 /* Style icons */
@@ -80,6 +78,7 @@ header {
 /* Set a style for the submit button Rechercher */
 #recherche {
   margin-top: 1px;
+  font-weight: 700;
 }
 
 .btn_search {
@@ -102,12 +101,17 @@ header {
   gap: 24px;
 }
 
+.filtre {
+  display: inline-block;
+  border: solid 2px #d9d9d9;
+  border-radius: 22px;
+  padding-right: 14px;
+  font-weight: 700;
+}
+
 .filtre i {
   color: #0065fc;
   border-radius: 50%;
-  margin-right: 14px;
-}
-.filtre span {
   margin-right: 14px;
 }
 
@@ -118,37 +122,41 @@ header {
   padding: 10px;
 }
 
-.filtre {
-  display: inline-block;
-  border: solid 2px #d9d9d9;
-  border-radius: 22px;
-}
-
 /*#disponibilité {}*/
 
 #info {
   color: #0065fc;
   background-color: white;
-  border-radius: 22px;
+  border-radius: 50%;
+  border: solid lightgray 1px;
+  padding: 2px 7px;
 }
 
-/*div conteneur de #section_hebergements et #aside_populaires*/
+/* conteneur de #section_hebergements et #aside_populaires*/
 
 .hebergements {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  margin-bottom: 15px;
 }
 
-/*section id="section_hebergements"*/
+/*Article id="article_hebergements"*/
 .img {
   height: 90px;
   width: 200px;
+  object-fit: cover;
+  object-position: center;
 }
-
+.img_populaires {
+  height: 150px;
+  width: 90px;
+}
 #hotels_a,
 #hotels_b {
+  display: inline-block;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -156,10 +164,24 @@ header {
   gap: 30px;
 }
 
-#section_hebergements,
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.description_populaires {
+  display: flex;
+  flex-direction: row;
+}
+
+.content_populaires {
+  display: flex;
+  flex-direction: column;
+}
+
+#article_hebergements,
 #aside_populaires {
   background-color: #f2f2f2;
-  margin-bottom: 15px;
+  margin: 16px 0;
 }
 
 /*.description h3*/
