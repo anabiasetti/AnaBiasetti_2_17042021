@@ -144,16 +144,23 @@ header {
 }
 
 /*Article id="article_hebergements"*/
+#article_hebergements {
+  padding: 32px;
+}
 .img {
   height: 90px;
   width: 200px;
   object-fit: cover;
   object-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.img_populaires {
-  height: 150px;
-  width: 90px;
+.content {
+  background-color: white;
+  border: solid 6px white;
+  border-radius: 10px;
 }
+
 #hotels_a,
 #hotels_b {
   display: inline-block;
@@ -164,13 +171,34 @@ header {
   gap: 30px;
 }
 
+#hotels_b {
+  margin-top: 36px;
+}
+
 .description {
   display: flex;
   flex-direction: column;
 }
+/*Aside les plus populaires*/
+#aside_populaires {
+  padding: 48px;
+}
+
+.img_populaires {
+  height: 100px;
+  width: 90px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .description_populaires {
   display: flex;
   flex-direction: row;
+  background-color: white;
+  border: solid 6px white;
+  border-radius: 10px;
 }
 
 .content_populaires {
@@ -225,10 +253,14 @@ header {
 .image_unique {
   width: 150px;
   height: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 .img_reduit {
   height: 90px;
   width: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .img_simple,
