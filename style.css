@@ -178,15 +178,22 @@ header {
 .description {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
+
+.description * {
+  margin: 0;
+}
+
 /*Aside les plus populaires*/
+
 #aside_populaires {
   padding: 48px;
 }
 
 .img_populaires {
-  height: 100px;
-  width: 90px;
+  height: 140;
+  width: 100px;
   object-fit: cover;
   object-position: center;
   border-top-left-radius: 10px;
@@ -199,17 +206,37 @@ header {
   background-color: white;
   border: solid 6px white;
   border-radius: 10px;
+  margin-bottom: 36px;
+  width: 272px;
+  height: 120px;
 }
 
 .content_populaires {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
+}
+
+.content_populaires * {
+  margin: 0;
+}
+
+.content_populaires .nom {
+  display: inline-block;
+  justify-content: start;
+  margin-top: 0;
+  flex-wrap: wrap;
 }
 
 #article_hebergements,
 #aside_populaires {
   background-color: #f2f2f2;
-  margin: 16px 0;
+  /* margin: 16px 0;*/
+}
+#aside_populaires {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*.description h3*/
@@ -242,6 +269,10 @@ header {
 .etoiles3 i:nth-child(4),
 .etoiles3 i:nth-child(5) {
   color: grey;
+}
+
+#aside_populaires .etoiles {
+  margin-top: auto;
 }
 /*Section Activites*/
 #section_activites {
