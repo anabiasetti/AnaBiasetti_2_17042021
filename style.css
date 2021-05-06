@@ -1,19 +1,35 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Raleway", sans-serif;
   color: black;
 }
-/*Header*/
-.logo {
-  width: 120px;
+h2 {
+  font-size: 18px;
+  font-weight: 700;
 }
 
-header {
+.nom {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/*Header*/
+
+.logo {
+  display: inline-block;
+  width: 72px;
+  object-fit: contain;
+  text-align: center;
+  position: absolute;
+  margin-top: 8px;
+}
+
+header nav {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.inscrire {
+  padding-left: 32px;
 }
 
 .menu {
@@ -53,7 +69,7 @@ header {
   margin-top: 38px;
 }
 
-.titre {
+.titre_recherche {
   margin-bottom: 0;
 }
 
@@ -75,7 +91,8 @@ header {
   border-bottom-left-radius: 10px;
   border-right: #deebff solid;
 }
-/* Set a style for the submit button Rechercher */
+/* Rechercher */
+
 #recherche {
   margin-top: 1px;
   font-weight: 700;
@@ -122,7 +139,8 @@ header {
   padding: 10px;
 }
 
-/*#disponibilité {}*/
+/*disponibilité */
+
 #disponibilite {
   display: inline-block;
   margin-top: 24px;
@@ -137,7 +155,7 @@ header {
 
 /* conteneur de #section_hebergements et #aside_populaires*/
 
-.hebergements {
+#section_hebergements {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -200,7 +218,6 @@ header {
 }
 
 .img_populaires {
-  height: 140;
   width: 100px;
   object-fit: cover;
   object-position: center;
@@ -247,12 +264,6 @@ header {
   justify-content: space-between;
 }
 
-/*.description h3*/
-.nom {
-  font-size: 16px;
-  font-weight: 700;
-}
-
 .afficher {
   font-size: 16px;
   font-weight: 700;
@@ -283,34 +294,65 @@ header {
   margin-top: auto;
 }
 /*Section Activites*/
-#section_activites {
+.titre_activites {
+  margin-top: 0px;
+}
+#section_activites div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 26px;
+  margin-left: 46px;
 }
+/*Images du section_activites*/
 .image_unique {
-  width: 150px;
-  height: 200px;
+  width: 275px;
+  height: 261px;
   object-fit: cover;
   object-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .img_reduit {
-  height: 90px;
-  width: 200px;
-  object-fit: cover;
-  object-position: center;
+  height: 100px;
+  width: 277px;
 }
 
-.img_simple,
-.double_image {
+.figure_haut,
+.figure_bas {
+  margin: 0px;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+  padding-bottom: 10px;
+}
+
+/*figure unique*/
+.figure {
   height: 300px;
-  width: 200px;
+  width: 275px;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+  padding-bottom: 10px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
-.img_simple h3 {
-  margin-top: 43px;
+.figure_double {
+  border: 0px;
+  box-shadow: 0 0 0 0;
+  gap: 44px;
 }
+
+.titre_images {
+  font-size: 16px;
+  font-weight: 700;
+}
+
 /*Footer*/
 
 footer a {
