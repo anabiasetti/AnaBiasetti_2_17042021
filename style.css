@@ -1,7 +1,9 @@
 body {
   font-family: "Raleway", sans-serif;
   color: black;
+  margin: 0;
 }
+
 h2 {
   font-size: 18px;
   font-weight: 700;
@@ -296,6 +298,7 @@ header nav {
 /*Section Activites*/
 .titre_activites {
   margin-top: 0px;
+  margin-left: 54px;
 }
 #section_activites div {
   display: flex;
