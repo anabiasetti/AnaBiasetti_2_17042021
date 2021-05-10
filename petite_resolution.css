@@ -41,9 +41,66 @@
 /***************hebergements: 1108px;*************/
 
 @media screen and (max-width: 1108px) {
-  #aside_populaires {
-    width: 696px;
-    max-width: 100%;
+  #section_hebergements {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+  }
+  .description_populaires {
+    margin-bottom: 8px;
+  }
+
+  #article_hebergements {
+    background-color: white;
+    margin-top: -15px;
+  }
+  #article_hebergements .content {
+    background-color: white;
+    border: solid 6px white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  #hotels_a,
+  #hotels_b {
+    gap: 8px;
+  }
+  #hotels_b {
+    margin-top: 8px;
+  }
+
+  .img {
+    height: 100px;
+    width: 284px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+  }
+  .afficher {
+    margin-top: 40px;
+  }
+
+  /*footer*/
+  footer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 34 px;
+  }
+
+  footer h2 {
+    width: 250px;
+  }
+
+  footer a {
+    width: 250px;
+    line-height: 34px;
   }
 }
+
 /*fermeture de hebergements*/

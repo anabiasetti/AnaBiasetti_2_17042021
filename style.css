@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+header {
+  margin-right: 64px;
+  margin-left: 64px;
+}
+
 h2 {
   font-size: 18px;
   font-weight: 700;
@@ -46,7 +51,7 @@ header nav {
 
 .menu a {
   text-decoration: none;
-  padding: 16px;
+  padding: 12px;
 }
 
 #login {
@@ -69,6 +74,7 @@ header nav {
 
 #menu_recherche {
   margin-top: 38px;
+  margin-left: 64px;
 }
 
 .titre_recherche {
@@ -118,6 +124,7 @@ header nav {
   justify-content: flex-start;
   align-items: center;
   gap: 24px;
+  margin-left: 64px;
 }
 
 .filtre {
@@ -126,6 +133,10 @@ header nav {
   border-radius: 22px;
   padding-right: 14px;
   font-weight: 700;
+}
+
+.filtre:hover {
+  background-color: #deebff;
 }
 
 .filtre i {
@@ -146,6 +157,7 @@ header nav {
 #disponibilite {
   display: inline-block;
   margin-top: 24px;
+  margin-left: 64px;
 }
 #info {
   color: #0065fc;
@@ -230,6 +242,7 @@ header nav {
 .description_populaires {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   background-color: white;
   border: solid 6px white;
   border-radius: 10px;
@@ -295,41 +308,17 @@ header nav {
 #aside_populaires .etoiles {
   margin-top: auto;
 }
-/*Section Activites*/
-.titre_activites {
-  margin-top: 0px;
-  margin-left: 54px;
-}
+/*SECTION ACTIVITES*/
+
 #section_activites div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 26px;
-  margin-left: 46px;
+  margin-left: 64px;
 }
 /*Images du section_activites*/
-.image_unique {
-  width: 275px;
-  height: 261px;
-  object-fit: cover;
-  object-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-.img_reduit {
-  height: 100px;
-  width: 277px;
-}
-
-.figure_haut,
-.figure_bas {
-  margin: 0px;
-  border-radius: 10px;
-  border: 1px solid #f2f2f2;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
-  padding-bottom: 10px;
-}
 
 /*figure unique*/
 .figure {
@@ -344,11 +333,31 @@ header nav {
   flex-direction: column;
   gap: 24px;
 }
-
 .figure_double {
   border: 0px;
   box-shadow: 0 0 0 0;
   gap: 44px;
+}
+.figure_haut,
+.figure_bas {
+  margin: 0px;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+  padding-bottom: 10px;
+}
+
+.image_unique {
+  width: 275px;
+  height: 261px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.img_reduit {
+  height: 100px;
+  width: 277px;
 }
 
 .titre_images {
