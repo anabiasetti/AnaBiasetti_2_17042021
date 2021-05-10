@@ -173,8 +173,8 @@ header nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-
+  justify-content: center;
+  gap: 64px;
   margin-bottom: 15px;
 }
 
@@ -190,7 +190,7 @@ header nav {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.content {
+.hotel {
   background-color: white;
   border: solid 6px white;
   border-radius: 10px;
@@ -294,15 +294,16 @@ header nav {
 
 .etoiles i {
   color: #0065fc;
+  font-size: 12px;
 }
 
 .etoiles4 i:last-child {
-  color: grey;
+  color: lightgrey;
 }
 
 .etoiles3 i:nth-child(4),
 .etoiles3 i:nth-child(5) {
-  color: grey;
+  color: lightgrey;
 }
 
 #aside_populaires .etoiles {
@@ -310,7 +311,7 @@ header nav {
 }
 /*SECTION ACTIVITES*/
 
-#section_activites div {
+.totalite_figures {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -371,6 +372,7 @@ footer a {
   display: block;
   text-decoration: none;
   color: black;
+  line-height: 34px;
 }
 footer {
   background-color: #f2f2f2;
@@ -379,4 +381,7 @@ footer {
   justify-content: space-between;
   padding: 16px 251px 48px 28px;
   margin-top: 130px;
+}
+footer section {
+  width: 256px;
 }
