@@ -1,29 +1,8 @@
 /***********Responsive *********/
 
-/*desktop:1200px;*/
+/***************header: 576px;*************/
 
-@media (max-width: 1200px) {
-  header {
-    background-color: mediumaquamarine;
-  }
-}
-
-/*laptop:992px;*/
-@media (max-width: 992px) {
-  header {
-    background-color: lightgreen;
-  }
-}
-/*tablet:768px;*/
-@media (max-width: 768px) {
-  header {
-    background-color: beige;
-  }
-}
-
-/***************mobile: 576px;*************/
-
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   header {
     background-color: white;
     display: inline-block;
@@ -56,4 +35,15 @@
   .act {
     border-bottom: solid 2px lightslategray;
   }
-} /*fermeture de mobile*/
+}
+/*fermeture de header*/
+
+/***************hebergements: 1108px;*************/
+
+@media screen and (max-width: 1108px) {
+  #aside_populaires {
+    width: 696px;
+    max-width: 100%;
+  }
+}
+/*fermeture de hebergements*/
