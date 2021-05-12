@@ -79,6 +79,7 @@ header nav {
 
 .titre_recherche {
   margin-bottom: 0;
+  line-height: 36px;
 }
 
 /* Style the input container */
@@ -87,7 +88,9 @@ header nav {
   flex-direction: row;
   margin: 24px 0;
 }
-
+#loupe {
+  display: none;
+}
 /* Style icons */
 
 #place_icon {
@@ -318,6 +321,12 @@ header nav {
   justify-content: space-around;
   margin-top: 26px;
   margin-left: 64px;
+}
+
+.titre_images {
+  padding-left: 2.5vw;
+  display: flex;
+  align-items: center;
 }
 /*Images du section_activites*/
 
