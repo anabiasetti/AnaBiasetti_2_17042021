@@ -4,44 +4,47 @@
 
 @media all and (max-width: 576px) {
   header {
-    background-color: white;
-    display: inline-block;
+    margin: 0;
+    flex-direction: column;
   }
 
-  /* #navigation menu {
-    display: block;
-  }*/
-
-  .logo {
-    display: inline-block;
-    margin: 0px;
+  #login {
     position: absolute;
-    object-fit: contain;
+    top: 16px;
+    right: 16px;
   }
+
+  #logo_reservia {
+    padding-left: 16px;
+  }
+
+  .menu {
+    width: 100%;
+    gap: 0;
+  }
+
   .heb,
   .act {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
     width: 50%;
   }
 
-  /* #login a {
-    margin-inline-start: 408px;
-  }
-  .menu {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  .menu a {
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .heb #hebergements {
+  #hebergements,
+  #activites {
     border-top: none;
-    border-bottom: solid 2px #0065fc;
+    border-bottom: solid 2px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
   }
-  .act {
-    border-bottom: solid 2px lightslategray;
-  }*/
+
+  #activites {
+    border-color: lightgray;
+  }
 }
 /*fermeture de header*/
 
