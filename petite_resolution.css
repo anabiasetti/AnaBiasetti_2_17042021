@@ -49,6 +49,13 @@
 /*fermeture de header*/
 
 /*SECTION RECHERCHE ET FILTRES*/
+main {
+  margin: 0px;
+}
+.titre_recherche {
+  width: 240px;
+}
+
 #menu_recherche {
   display: inline-block;
   margin-left: 20px;
@@ -85,10 +92,13 @@
   gap: 20px;
   margin-left: 18px;
 }
+#disponibilite {
+  margin-left: 20px;
+  margin-right: 48px;
+}
+/***************hebergements: 1160px;*************/
 
-/***************hebergements: 1108px;*************/
-
-@media all and (max-width: 1108px) {
+@media all and (max-width: 1160px) {
   #section_hebergements {
     display: flex;
     flex-direction: column-reverse;
@@ -96,14 +106,40 @@
     flex-wrap: nowrap;
     margin-bottom: 20px;
   }
-  .description_populaires {
-    margin-bottom: 8px;
-  }
 
+  .content_populaires {
+    margin: 6px 32px;
+  }
+  .description_populaires {
+    width: auto;
+  }
   #article_hebergements {
     background-color: white;
     margin-top: -15px;
+    padding: 0px;
   }
+  #hotels_a,
+  #hotels_b {
+    gap: 12px;
+  }
+  #hotels_b {
+    margin-top: 12px;
+  }
+  .img {
+    height: 112px;
+    width: 348px;
+
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.15);
+  }
+  .hotel {
+    width: 350px;
+    height: 184px;
+  }
+
   #article_hebergements .hotel {
     background-color: white;
     border: solid 6px white;
@@ -112,29 +148,8 @@
     padding: 4px;
   }
 
-  #hotels_a,
-  #hotels_b {
-    gap: 12px;
-  }
-  #hotels_b {
-    margin-top: 12px;
-  }
-
-  .img {
-    height: 100px;
-    width: 284px;
-    object-fit: cover;
-    object-position: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.15);
-  }
   .afficher {
     margin-top: 40px;
-  }
-  .hotel {
-    width: 284px;
-    height: 158px;
   }
   /*fermeture de hebergements*/
 

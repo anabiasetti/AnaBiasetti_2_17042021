@@ -19,8 +19,8 @@ h2 {
 header {
   display: flex;
   justify-content: space-between;
-  margin-right: 64px;
-  margin-left: 64px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .logo {
@@ -73,10 +73,13 @@ header nav {
 }
 
 /* Section A: Recherche*/
+main {
+  margin: 0 40px;
+}
 
 #menu_recherche {
   margin-top: 38px;
-  margin-left: 64px;
+  /*margin-left: 64px;*/
 }
 
 .titre_recherche {
@@ -129,7 +132,7 @@ header nav {
   justify-content: flex-start;
   align-items: center;
   gap: 24px;
-  margin-left: 64px;
+  /*margin-left: 64px;*/
 }
 
 .filtre {
@@ -162,7 +165,7 @@ header nav {
 #disponibilite {
   display: inline-block;
   margin-top: 24px;
-  margin-left: 64px;
+  /*margin-left: 64px;*/
 }
 #info {
   color: #0065fc;
@@ -197,7 +200,7 @@ header nav {
 }
 .hotel {
   background-color: white;
-  border: solid 6px white;
+  border: solid 4px white;
   border-radius: 10px;
 }
 
@@ -219,6 +222,7 @@ header nav {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin: 8px;
 }
 
 .description * {
@@ -277,6 +281,7 @@ header nav {
 #aside_populaires {
   background-color: #f2f2f2;
   margin-top: 50px;
+  flex-grow: 1;
 }
 #aside_populaires {
   display: inline-block;
@@ -315,14 +320,17 @@ header nav {
   margin-top: auto;
 }
 /*SECTION ACTIVITES*/
+.titre_activites {
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
 
 .totalite_figures {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 26px;
-  margin-left: 64px;
+  margin-top: 8px;
 }
 
 .titre_images {
