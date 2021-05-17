@@ -52,8 +52,13 @@
 main {
   margin: 0px;
 }
+
 .titre_recherche {
-  width: 240px;
+  font-size: 24px;
+}
+
+.commentaire {
+  line-height: 48px;
 }
 
 #menu_recherche {
@@ -64,7 +69,9 @@ main {
 #place_icon {
   background-color: #f2f2f2;
 }
-
+#recherche {
+  width: 64%;
+}
 .btn_search {
   display: none;
 }
@@ -106,7 +113,9 @@ main {
     flex-wrap: nowrap;
     margin-bottom: 20px;
   }
-
+  .titre_hebergements {
+    margin-left: 22px;
+  }
   .content_populaires {
     margin: 6px 32px;
   }
@@ -117,6 +126,8 @@ main {
     background-color: white;
     margin-top: -15px;
     padding: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
   #hotels_a,
   #hotels_b {
@@ -127,7 +138,7 @@ main {
   }
   .img {
     height: 112px;
-    width: 348px;
+    width: 328px;
 
     object-fit: cover;
     object-position: center;
@@ -136,20 +147,20 @@ main {
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.15);
   }
   .hotel {
-    width: 350px;
-    height: 184px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   #article_hebergements .hotel {
     background-color: white;
     border: solid 6px white;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-    padding: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
   }
 
   .afficher {
     margin-top: 40px;
+    margin-left: 32px;
   }
   /*fermeture de hebergements*/
 
@@ -159,6 +170,10 @@ main {
   }
   #section_activites h2 {
     padding-left: 28px;
+  }
+  .titre_activites {
+    margin-left: 6px;
+    font-size: 18px;
   }
   .totalite_figures {
     margin-left: 10px;

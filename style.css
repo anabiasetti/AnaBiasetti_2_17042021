@@ -6,11 +6,13 @@ body {
 
 h2 {
   font-size: 18px;
+
   font-weight: 700;
 }
 
 .nom {
-  font-size: 16px;
+  font-size: 14px;
+
   font-weight: 700;
 }
 
@@ -99,19 +101,27 @@ main {
 /* Style icons */
 
 #place_icon {
-  background-color: #deebff;
+  background-color: #f2f2f2;
   box-sizing: border-box;
   display: inline-block;
   color: black;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-right: #deebff solid;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: 1px #f2f2f2 solid;
+  padding: 14px;
 }
 /* Rechercher */
 
 #recherche {
   margin-top: 1px;
-  font-weight: 700;
+  border: 1px solid #f2f2f2;
+  box-shadow: 1px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 14px;
+  width: 16%;
+}
+::placeholder {
 }
 
 .btn_search {
@@ -122,6 +132,10 @@ main {
   padding: 8px;
   text-decoration: none;
   margin-left: -3px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 1px rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /* nav filtres-bar:economique, familial,romantique, animaux*/
@@ -153,8 +167,7 @@ main {
   margin-right: 14px;
 }
 
-.filtre i,
-#place_icon {
+.filtre i {
   background-color: #deebff;
   border: 1px solid #deebff;
   padding: 10px;
