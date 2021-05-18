@@ -165,40 +165,23 @@ main {
   /*fermeture de hebergements*/
 
   /*ACTIVITES*/
-  #section_activites {
-    padding: 0;
-  }
-  #section_activites h2 {
-    padding-left: 28px;
-  }
+
   .titre_activites {
-    margin-left: 6px;
+    margin-left: 28px;
     font-size: 18px;
   }
   .totalite_figures {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 32px;
   }
+
   .figure {
+    margin: 0;
     height: auto;
     width: auto;
-    gap: 12px;
+    object-fit: cover;
   }
-  .figure img {
-    height: 100px;
-    width: 277px;
-    margin: 0px;
-    border-radius: 10px;
-  }
-  .figure_double {
-    height: auto;
-    width: auto;
-    gap: 12px;
-    margin-top: 1px;
-    margin-bottom: -8px;
-  }
+
   .titre_images {
-    padding-left: 2.5vw;
     display: flex;
     align-items: center;
   }

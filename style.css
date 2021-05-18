@@ -81,7 +81,6 @@ main {
 
 #menu_recherche {
   margin-top: 38px;
-  /*margin-left: 64px;*/
 }
 
 .titre_recherche {
@@ -121,8 +120,6 @@ main {
   padding-left: 14px;
   width: 16%;
 }
-::placeholder {
-}
 
 .btn_search {
   background-color: #0065fc;
@@ -146,7 +143,6 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 24px;
-  /*margin-left: 64px;*/
 }
 
 .filtre {
@@ -178,7 +174,6 @@ main {
 #disponibilite {
   display: inline-block;
   margin-top: 24px;
-  /*margin-left: 64px;*/
 }
 #info {
   color: #0065fc;
@@ -343,7 +338,6 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 8px;
 }
 
 .titre_images {
@@ -355,32 +349,21 @@ main {
 
 /*figure unique*/
 .figure {
-  height: 300px;
   width: 275px;
   border-radius: 10px;
   border: 1px solid #f2f2f2;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
-  padding-bottom: 10px;
-  margin-left: 0px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
 }
 .figure_double {
   border: 0px;
   box-shadow: 0 0 0 0;
-  gap: 44px;
   border-radius: 0;
-  margin-top: 16px;
-  margin-right: 40px;
 }
 .figure_haut,
 .figure_bas {
   margin: 0px;
-  border-radius: 10px;
-  border: 1px solid #f2f2f2;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
-  padding-bottom: 10px;
 }
 
 .image_unique {
