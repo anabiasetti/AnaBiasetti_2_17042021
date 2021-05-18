@@ -172,6 +172,7 @@ main {
   }
   .totalite_figures {
     margin-top: 32px;
+    gap: 14px;
   }
 
   .figure {
@@ -180,7 +181,9 @@ main {
     width: auto;
     object-fit: cover;
   }
-
+  .figure_double {
+    gap: 14px;
+  }
   .titre_images {
     display: flex;
     align-items: center;

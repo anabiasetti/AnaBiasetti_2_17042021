@@ -344,6 +344,7 @@ main {
   padding-left: 2.5vw;
   display: flex;
   align-items: center;
+  padding: 14px;
 }
 /*Images du section_activites*/
 
@@ -360,6 +361,7 @@ main {
   border: 0px;
   box-shadow: 0 0 0 0;
   border-radius: 0;
+  gap: 30px;
 }
 .figure_haut,
 .figure_bas {
