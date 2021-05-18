@@ -103,8 +103,8 @@ main {
   margin-left: 20px;
   margin-right: 48px;
 }
-/***************hebergements: 1160px;*************/
 
+/***************hebergements: 1160px;*************/
 @media all and (max-width: 1160px) {
   #section_hebergements {
     display: flex;
@@ -163,30 +163,33 @@ main {
     margin-left: 32px;
   }
   /*fermeture de hebergements*/
+}
 
-  /*ACTIVITES*/
-
-  .titre_activites {
-    margin-left: 28px;
-    font-size: 18px;
-  }
+/***************ACTIVITES: 1160px;*************/
+@media all and (max-width: 1160px) {
   .totalite_figures {
     margin-top: 32px;
-    gap: 14px;
+    gap: 2vh;
   }
 
-  .figure {
-    margin: 0;
-    height: auto;
-    width: auto;
-    object-fit: cover;
-  }
-  .figure_double {
-    gap: 14px;
-  }
   .titre_images {
     display: flex;
     align-items: center;
+  }
+}
+
+@media all and (max-width: 565px) {
+  .titre_activites {
+    margin-left: 10%;
+    font-size: 18px;
+  }
+  .figure {
+    width: 80vw;
+  }
+  .image_unique,
+  .image_reduit {
+    height: 100px;
+    width: auto;
   }
 }
 

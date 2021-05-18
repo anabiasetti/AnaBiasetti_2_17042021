@@ -328,9 +328,13 @@ main {
   margin-top: auto;
 }
 /*SECTION ACTIVITES*/
+#section_activites {
+  margin-top: 40px;
+}
 .titre_activites {
   margin-top: 6px;
   margin-bottom: 4px;
+  margin-left: 28px;
 }
 
 .totalite_figures {
@@ -340,15 +344,14 @@ main {
   justify-content: space-around;
 }
 
-.titre_images {
-  padding-left: 2.5vw;
-  display: flex;
-  align-items: center;
-  padding: 14px;
-}
 /*Images du section_activites*/
 
 /*figure unique*/
+.totalite_figures {
+  margin: 0;
+  padding: 0;
+}
+
 .figure {
   width: 275px;
   border-radius: 10px;
@@ -356,16 +359,17 @@ main {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 .figure_double {
   border: 0px;
   box-shadow: 0 0 0 0;
   border-radius: 0;
-  gap: 30px;
+  gap: 2vh;
 }
 .figure_haut,
 .figure_bas {
-  margin: 0px;
+  margin: 0;
 }
 
 .image_unique {
@@ -383,6 +387,9 @@ main {
 .titre_images {
   font-size: 16px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 14px;
 }
 
 /*Footer*/
