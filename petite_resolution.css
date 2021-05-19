@@ -28,11 +28,6 @@
     width: 50%;
   }
 
-  .menu a {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   #hebergements,
   #activites {
     border-top: none;
@@ -185,6 +180,9 @@ main {
   }
   .figure {
     width: 80vw;
+  }
+  .figure_double {
+    gap: 2vh;
   }
   .image_unique,
   .image_reduit {

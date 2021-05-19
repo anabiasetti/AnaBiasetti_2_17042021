@@ -19,7 +19,7 @@
         <img class="logo" src="images/Reservia@3x.png" alt="logo" />
       </div>
 
-      <nav id="nav_auto">
+      <nav id="navigation">
         <a class="inscrire" href="#section_inscription" id="login">S'inscrire</a>
         <ul class="menu">
           <li class="heb"><a href="#section_hebergements" id="hebergements">Hébergements</a></li>
@@ -47,7 +47,7 @@
       <!--filtres: economique,familial,romantique, animaux autorisés-->
 
       <section id="filtres_bar">
-        <h3 class="nom">Filtres</h3>
+        <h3 id="titre_filtres">Filtres</h3>
 
         <div class="filtre" id="economique"><i class="fas fa-money-bill-wave"></i>Economique</div>
         <div class="filtre" id="familial"><i class="fas fa-child"></i>Familial</div>
@@ -254,65 +254,76 @@
 
       <section id="section_activites">
         <h2 class="titre_activites">Activités à Marseille</h2>
-        <!--une image-->
+
         <div class="totalite_figures">
-          <figure class="figure">
-            <img
-              class="image_unique"
-              src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-              alt="vieux port"
-            />
-            <figcaption class="titre_images">Vieux Port</figcaption>
-          </figure>
+          <a id="port" href="">
+            <figure class="figure">
+              <img
+                class="image_unique"
+                src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                alt="vieux port"
+              />
+              <figcaption class="titre_images">Vieux Port</figcaption>
+            </figure>
+          </a>
 
-          <!--Deux images dans une-->
-
+          <!-- Deux images dans une!!!!-->
           <div class="figure figure_double">
-            <figure class="figure figure_haut">
-              <img
-                class="image_unique img_reduit"
-                src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                alt="fort de pomégues"
-              />
-              <figcaption class="titre_images">Fort de pomégues</figcaption>
-            </figure>
-            <figure class="figure figure_bas">
-              <img
-                class="image_unique img_reduit"
-                src="images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                alt="iles de frioul"
-              />
-              <figcaption class="titre_images">Îles de Frioul</figcaption>
-            </figure>
+            <a id="pomegues" href="">
+              <figure class="figure figure_haut">
+                <img
+                  class="image_unique img_reduit1"
+                  src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                  alt="pomegues"
+                />
+                <figcaption class="titre_images">Fort de Pomègues</figcaption>
+              </figure>
+            </a>
+            <a id="frioul" href="">
+              <figure class="figure figure_bas">
+                <img
+                  class="image_unique img_reduit2"
+                  src="images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                  alt="ile du frioul"
+                />
+                <figcaption class="titre_images">Ile du Frioul</figcaption>
+              </figure>
+            </a>
           </div>
-          <!--une image-->
-          <figure class="figure">
-            <img
-              class="image_unique"
-              src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-              alt="parc calanques"
-            />
-            <figcaption class="titre_images">Parc National des Calanques</figcaption>
-          </figure>
 
-          <!--Deux images dans une-->
+          <!--une image-->
+          <a id="calanques" href="">
+            <figure class="figure">
+              <img
+                class="image_unique"
+                src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                alt="parc calanques"
+              />
+              <figcaption class="titre_images">Parc National des Calanques</figcaption>
+            </figure>
+          </a>
+          <!-- Deux images dans une!!!!-->
           <div class="figure figure_double">
-            <figure class="figure figure_haut">
-              <img
-                class="image_unique img_reduit"
-                src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                alt="notre dame de la garde"
-              />
-              <figcaption class="titre_images">Notre-Dame-de-la-Garde</figcaption>
-            </figure>
-            <figure class="figure figure_bas">
-              <img
-                class="image_unique img_reduit"
-                src="images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                alt="parc longchamp"
-              />
-              <figcaption class="titre_images">Parc Longchamp</figcaption>
-            </figure>
+            <a id="notredame" href="">
+              <figure class="figure figure_haut">
+                <img
+                  class="image_unique img_reduit2"
+                  src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt="notre dame de la garde"
+                />
+                <figcaption class="titre_images">Notre-Dame-de-la-Garde</figcaption>
+              </figure>
+            </a>
+            <a id="longchamp" href="">
+              <figure class="figure figure_bas">
+                <img
+                  class="image_unique img_reduit1"
+                  src="images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                  alt="parc longchamp"
+                />
+                <figcaption class="titre_images">Parc Longchamp</figcaption>
+              </figure>
+            </a>
           </div>
         </div>
       </section>
