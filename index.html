@@ -30,23 +30,22 @@
     <!--Main-->
     <main>
       <!--SECTION RECHERCHE/ Titre, Form et Filtres-->
-      <div id="nav_form">
+      <section id="recherche">
+        <h2 class="titre_recherche">Trouvez votre hébergement pour des vacances de rêve</h2>
+        <span class="commentaire">En plein centre ville ou en plein nature.</span>
         <nav id="menu_recherche">
-          <h2 class="titre_recherche">Trouvez votre hébergement pour des vacances de rêve</h2>
-          <span class="commentaire">En plein centre ville ou en plein nature.</span>
-
           <form class="input_container" id="search" method="post">
             <i class="fas fa-map-marker-alt" id="place_icon"></i>
-            <input type="text" name="recherche" id="recherche" placeholder="Marseille, France" />
+            <input type="text" name="recherche" id="places" placeholder="Marseille, France" />
             <input class="btn_search" type="button" value="Rechercher" />
             <i id="loupe" class="fas fa-search"></i>
           </form>
         </nav>
-      </div>
+      </section>
 
       <!--filtres: economique,familial,romantique, animaux autorisés-->
 
-      <section id="filtres_bar">
+      <section id="filtres_barre">
         <h3 id="titre_filtres">Filtres</h3>
 
         <div class="filtre" id="economique"><i class="fas fa-money-bill-wave"></i>Economique</div>
@@ -64,8 +63,6 @@
       <!--SECTION HEBERGEMENTS/ASIDE HEBERGEMENTS-->
 
       <section id="section_hebergements">
-        <!--essayer de metre une section--><!--j'avais mis un div x validator-->
-
         <article id="article_hebergements">
           <h2 class="titre_hebergements">Hèbergements à Marseille</h2>
           <!--trois premieres images en dessus(en desktop) hotels_a-->

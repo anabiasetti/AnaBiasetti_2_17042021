@@ -45,26 +45,16 @@
 
 /*SECTION RECHERCHE ET FILTRES*/
 main {
-  margin: 0px;
+  margin: 0em 1.2em;
 }
-
-.titre_recherche {
-  font-size: 24px;
-}
-
-.commentaire {
-  line-height: 48px;
-}
-
 #menu_recherche {
   display: inline-block;
-  margin-left: 20px;
 }
 
 #place_icon {
   background-color: #f2f2f2;
 }
-#recherche {
+#places {
   width: 64%;
 }
 .btn_search {
@@ -82,17 +72,17 @@ main {
 }
 /*FILTRES*/
 
-#filtres_bar .nom {
+#titre_filtres {
   width: 100%;
 }
 
-#filtres_bar {
+#filtres_barre {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
-  margin-left: 18px;
+  margin-left: 1.125em;
 }
 #disponibilite {
   margin-left: 20px;
