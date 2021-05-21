@@ -212,6 +212,9 @@ main {
 .titre_hebergements {
   width: 100%;
 }
+#section_hebergements a {
+  text-decoration: none;
+}
 
 #article_hebergements,
 #aside_populaires {
@@ -252,6 +255,7 @@ main {
   background-color: white;
   border: solid 4px white;
   border-radius: 10px;
+  color: black;
 }
 
 .description {
@@ -301,7 +305,8 @@ main {
 .content_populaires {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 1.25em;
+  color: black;
 }
 
 .content_populaires * {
