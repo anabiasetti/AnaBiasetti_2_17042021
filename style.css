@@ -290,7 +290,7 @@ main {
   border-bottom-left-radius: 10px;
 }
 
-.description_populaires {
+.conteneur_populaires {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -302,18 +302,18 @@ main {
   height: 120px;
 }
 
-.content_populaires {
+.description_populaires {
   display: flex;
   flex-direction: column;
   margin-left: 1.25em;
   color: black;
 }
 
-.content_populaires * {
+.description_populaires * {
   margin: 0;
 }
 
-.content_populaires .nom {
+.description_populaires .nom {
   display: inline-block;
   justify-content: start;
   margin-top: 0;

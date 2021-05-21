@@ -44,7 +44,12 @@
 /*fermeture de header*/
 
 /*SECTION RECHERCHE ET FILTRES*/
+
 main {
+  margin: 0;
+}
+
+#recherche {
   margin: 0 1.2em;
 }
 
@@ -76,11 +81,12 @@ main {
   flex-direction: row;
   align-items: flex-start;
   gap: 1.25em;
+  margin: 0 1.2em;
 }
 
 #disponibilite {
   display: inline-block;
-  margin-left: 0.2em;
+  margin: 2.5em 1.2em 0;
 }
 
 /***************hebergements: 1160px;*************/
@@ -95,11 +101,16 @@ main {
   .titre_hebergements {
     width: auto;
   }
-  .content_populaires {
-    margin: 6px 32px;
+  #aside_populaires {
+    padding: 1em;
   }
   .description_populaires {
+    margin: 6px 32px;
+  }
+  .conteneur_populaires {
     width: auto;
+    margin-top: 0.0625em;
+    margin-bottom: 1em;
   }
   #article_hebergements {
     background-color: white;
@@ -132,8 +143,8 @@ main {
   }
 
   .afficher {
-    margin-top: 40px;
-    margin-left: 32px;
+    margin-top: 1em;
+    margin-left: 6%;
   }
   /*fermeture de hebergements*/
 }
@@ -153,8 +164,7 @@ main {
 
 @media all and (max-width: 565px) {
   .titre_activites {
-    margin-left: 10%;
-    font-size: 18px;
+    margin-left: 6%;
   }
   .figure {
     width: 80vw;
