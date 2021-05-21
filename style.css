@@ -21,6 +21,7 @@ header {
   justify-content: space-between;
   margin-right: 2.5em;
   margin-left: 2.5em;
+  margin-top: 1.5em;
 }
 
 .logo {
@@ -49,16 +50,16 @@ header nav {
   align-content: flex-start;
   justify-content: flex-end;
   list-style: none;
-  gap: 25px;
+  gap: 1.5625em;
   font-size: 1em;
-  padding: 0px;
+  padding: 0;
 }
 
 .menu a {
   text-decoration: none;
-  padding-top: 14px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 2.375em;
+  /*padding-left: 1.25em;*/
+  padding-right: 1.25em;
 }
 
 #login {
@@ -74,30 +75,31 @@ header nav {
 
 #hebergements {
   color: #0065fc;
-  border-top: solid 2px;
+  border-top: solid 0.125em;
 }
 
 /* Section :recherche*/
 
 main {
-  margin: 0 2.5em; /*40px 250%*/
+  margin: 0 2.5em;
 }
 
-#recherche {
+#recherche,
+#titre_filtres {
   margin-left: 0.5em;
 }
 
 .titre_recherche {
-  margin-right: 2em;
   font-size: 1.25em;
   margin-bottom: 0.375em;
+  margin-right: 2em;
 }
 
 /* Style the input container */
 .input_container {
   display: flex;
   flex-direction: row;
-  margin: 24px 0;
+  margin: 1.5em 0;
 }
 #loupe {
   display: none;
@@ -109,55 +111,56 @@ main {
   box-sizing: border-box;
   display: inline-block;
   color: black;
-  border-top-left-radius: 12px;
-  border-bottom-left-radius: 12px;
-  border-right: 1px #f2f2f2 solid;
-  padding: 14px;
+  border-top-left-radius: 0.75em;
+  border-bottom-left-radius: 0.75em;
+  border-right: 0.0625em #f2f2f2 solid;
+  padding: 0.875em;
 }
 /* Rechercher */
 
 #places {
-  margin-top: 1px;
-  border: 1px solid #f2f2f2;
-
-  font-size: 16px;
+  margin-top: 0.0625em;
+  border: 0.0625em solid #f2f2f2;
+  font-size: 1em;
   font-weight: bold;
-  padding-left: 14px;
+  padding-left: 0.875em;
   width: 16%;
 }
 
 .btn_search {
   background-color: #0065fc;
   color: white;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  padding: 8px;
   text-decoration: none;
-  border: 1px solid #f2f2f2;
-  font-size: 14px;
+  border: 0.0625em solid #f2f2f2;
+  font-size: 0.875em;
   font-weight: bold;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  padding-right: 2em;
+  padding-left: 1.6em;
 }
 
-/* nav filtres-bar:economique, familial,romantique, animaux*/
+/* Section filtres-barre:economique, familial,romantique, animaux*/
 
-#filtres_barre {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 24px;
-}
 #titre_filtres {
   color: black;
   font-size: 93.75%;
   font-weight: 700;
 }
 
+#filtres_barre {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.25em;
+}
+
 .filtre {
   display: inline-block;
-  border: solid 2px #d9d9d9;
-  border-radius: 22px;
-  padding-right: 14px;
+  border: solid 0.125em #d9d9d9;
+  border-radius: 1.375em;
+  padding-right: 0.875em;
   font-size: 93.75%;
   font-weight: 700;
 }
@@ -169,27 +172,30 @@ main {
 .filtre i {
   color: #0065fc;
   border-radius: 50%;
-  margin-right: 14px;
-}
-
-.filtre i {
+  margin-right: 0.625em;
   background-color: #deebff;
   border: 1px solid #deebff;
-  padding: 10px;
+  padding: 0.625em;
 }
 
 /*disponibilité */
 
 #disponibilite {
-  display: inline-block;
-  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75em;
+  margin-top: 2.5em;
+  margin-left: 0.5em;
 }
 #info {
   color: #0065fc;
   background-color: white;
   border-radius: 50%;
-  border: solid lightgray 1px;
-  padding: 2px 7px;
+  border: solid lightgray 0.0625em;
+  padding: 0.125em 0.4375em;
+}
+.logements_disponibles {
+  margin-top: 0.125em;
 }
 
 /* conteneur de #section_hebergements et #aside_populaires*/
