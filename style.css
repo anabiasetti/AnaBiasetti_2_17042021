@@ -198,7 +198,7 @@ main {
   margin-top: 0.125em;
 }
 
-/* conteneur de #section_hebergements et #aside_populaires*/
+/* Conteneur de #section_hebergements:#article_hebergements et #aside_populaires*/
 
 #section_hebergements {
   display: flex;
@@ -209,10 +209,37 @@ main {
   margin-bottom: 15px;
 }
 
-/*Article id="article_hebergements"*/
-#article_hebergements {
-  padding: 32px;
+.titre_hebergements {
+  width: 100%;
 }
+
+#article_hebergements,
+#aside_populaires {
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  margin-top: 5%;
+  padding: 2em;
+}
+
+#article_hebergements {
+  width: 50%;
+  flex-direction: row;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.25em;
+}
+
+.afficher {
+  font-size: 1em;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 104px;
+  width: 100%;
+}
+
 .img {
   height: 90px;
   width: 200px;
@@ -227,20 +254,6 @@ main {
   border-radius: 10px;
 }
 
-#hotels_a,
-#hotels_b {
-  display: inline-block;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 30px;
-}
-
-#hotels_b {
-  margin-top: 36px;
-}
-
 .description {
   display: flex;
   flex-direction: column;
@@ -253,14 +266,16 @@ main {
 }
 
 /*Aside les plus populaires*/
-.pop {
+.titre_populaires {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 #aside_populaires {
-  padding: 32px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .img_populaires {
@@ -278,7 +293,7 @@ main {
   background-color: white;
   border: solid 6px white;
   border-radius: 10px;
-  margin-bottom: 36px;
+  margin-top: 2.5em;
   width: 272px;
   height: 120px;
 }
@@ -298,26 +313,6 @@ main {
   justify-content: start;
   margin-top: 0;
   flex-wrap: wrap;
-}
-
-#article_hebergements,
-#aside_populaires {
-  background-color: #f2f2f2;
-  margin-top: 50px;
-  flex-grow: 1;
-}
-#aside_populaires {
-  display: inline-block;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.afficher {
-  font-size: 16px;
-  font-weight: 700;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 104px;
 }
 
 .prix {

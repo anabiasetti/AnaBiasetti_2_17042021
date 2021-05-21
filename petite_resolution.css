@@ -90,10 +90,10 @@ main {
     flex-direction: column-reverse;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   .titre_hebergements {
-    margin-left: 22px;
+    width: auto;
   }
   .content_populaires {
     margin: 6px 32px;
@@ -108,13 +108,7 @@ main {
     margin-left: 6px;
     margin-right: 6px;
   }
-  #hotels_a,
-  #hotels_b {
-    gap: 12px;
-  }
-  #hotels_b {
-    margin-top: 12px;
-  }
+
   .img {
     height: 112px;
     width: 328px;
@@ -128,7 +122,6 @@ main {
   #article_hebergements {
     display: flex;
     flex-direction: column;
-    align-content: center;
   }
 
   #article_hebergements .hotel {
