@@ -1,7 +1,6 @@
 /***********Responsive *********/
 
 /***************header: 576px;*************/
-
 @media all and (max-width: 576px) {
   header {
     margin: 0;
@@ -10,7 +9,7 @@
 
   #login {
     position: absolute;
-    top: 16px;
+    top: 24px;
     right: 16px;
   }
 
@@ -43,50 +42,113 @@
 }
 /*fermeture de header*/
 
+/*********recherche et filtres: 1280px;********/
+@media all and (max-width: 1280px) {
+  main {
+    margin: 0;
+  }
+  #recherche {
+    margin: 2.6em 1.3em;
+  }
+
+  #places {
+    width: auto;
+    max-width: 72%;
+  }
+
+  #titre_filtres {
+    width: 100%;
+  }
+
+  #filtres_barre {
+    margin: 1.3em;
+  }
+
+  #filtres_barre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.25em;
+    margin: 0 1.2em;
+  }
+
+  #disponibilite {
+    display: inline-block;
+    margin: 2.5em 1.2em 0;
+  }
+  .logements_disponibles {
+    padding-left: 0.4375em;
+  }
+}
+
 /*SECTION RECHERCHE ET FILTRES*/
+@media all and (max-width: 1160px) {
+  #navigation {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.25em;
+  }
 
-main {
-  margin: 0;
+  #titre_filtres {
+    margin-left: 0;
+  }
+
+  .titre_populaires {
+    font-size: 1.4em;
+  }
+
+  .conteneur_populaires {
+    display: flex;
+    flex-direction: row;
+    height: 15em;
+  }
+
+  .description_populaires .nom {
+    font-size: 1.2em;
+  }
+  .prix {
+    /* font-size: 1em;*/
+    margin-top: 4.7em;
+  }
+  .etoiles i {
+    font-size: 0.7em;
+  }
+  .img_populaires {
+    width: 66%;
+    object-fit: cover;
+    object-position: 0 65%;
+  }
 }
 
-#recherche {
-  margin: 0 1.2em;
-}
+/* styles pour mobile */
+@media all and (max-width: 576px) {
+  .btn_search {
+    display: none;
+  }
+  #loupe {
+    background-color: #0065fc;
+    color: #fff;
+    width: 2.8125em;
+    margin-left: -11px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-#places {
-  width: 66%;
-}
-.btn_search {
-  display: none;
-}
-#loupe {
-  background-color: #0065fc;
-  color: #fff;
-  width: 2.8125em;
-  margin-left: -11px;
-  border-radius: 11px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/*FILTRES*/
+  #recherche {
+    margin: 0 1.2em;
+  }
 
-#titre_filtres {
-  width: 100%;
-}
-
-#filtres_barre {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 1.25em;
-  margin: 0 1.2em;
-}
-
-#disponibilite {
-  display: inline-block;
-  margin: 2.5em 1.2em 0;
+  #places {
+    width: 200px;
+  }
 }
 
 /***************hebergements: 1160px;*************/
@@ -101,11 +163,13 @@ main {
   .titre_hebergements {
     width: auto;
   }
+
   #aside_populaires {
     padding: 1em;
   }
   .description_populaires {
     margin: 6px 32px;
+    width: 33%;
   }
   .conteneur_populaires {
     width: auto;
@@ -114,10 +178,8 @@ main {
   }
   #article_hebergements {
     background-color: white;
-    margin-top: -15px;
-    padding: 0px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin: 1.2em;
+    padding: 0;
   }
 
   .img {
@@ -148,6 +210,24 @@ main {
   }
   /*fermeture de hebergements*/
 }
+/* aside populaires pour mobile*/
+@media all and (max-width: 499px) {
+  .conteneur_populaires {
+    height: 7.5em;
+  }
+  .prix {
+    margin-top: 0;
+    margin-top: 0.5em;
+  }
+  .img_populaires {
+    width: 8em;
+    object-position: center;
+  }
+  .description_populaires {
+    margin: 6px 16px;
+    width: auto;
+  }
+}
 
 /***************ACTIVITES: 1160px;*************/
 @media all and (max-width: 1160px) {
@@ -174,7 +254,7 @@ main {
   }
   .image_unique,
   .image_reduit {
-    height: 100px;
+    height: 132px;
     width: auto;
   }
 }
