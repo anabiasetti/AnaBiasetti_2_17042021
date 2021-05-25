@@ -1,6 +1,6 @@
 /***********Responsive *********/
 
-/***************header: 576px;*************/
+/***************Header: 576px;*************/
 @media all and (max-width: 576px) {
   header {
     margin: 0;
@@ -47,7 +47,7 @@
 }
 /*fermeture de header*/
 
-/*********recherche et filtres: 1280px;********/
+/*********SECTION RECHERCHE ET FILTRES :1280px;********/
 @media all and (max-width: 1280px) {
   main {
     margin: 0;
@@ -87,7 +87,7 @@
   }
 }
 
-/*SECTION RECHERCHE ET FILTRES*/
+/********SECTION RECHERCHE ET FILTRES :1160px******************/
 @media all and (max-width: 1160px) {
   #navigation {
     display: flex;
@@ -112,7 +112,6 @@
     font-size: 1.2em;
   }
   .prix {
-    /* font-size: 1em;*/
     margin-top: 4.7em;
   }
   .etoiles i {
@@ -150,19 +149,9 @@
   }
 }
 
-/***************hebergements: 1160px;*************/
-@media all and (max-width: 1160px) {
-  #section_hebergements {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    margin-bottom: 1.25em;
-  }
-  .titre_hebergements {
-    width: auto;
-  }
+/***************SECTION HEBERGEMENTS/ASIDE POPULAIRES: 1160px;*************/
 
+@media all and (max-width: 1160px) {
   #aside_populaires {
     padding: 1em;
   }
@@ -175,6 +164,118 @@
     margin-top: 0.0625em;
     margin-bottom: 1em;
   }
+}
+
+/***************SECTION HEBERGEMENTS/ARTICLE HEBERGEMENTS: 1160px;*************/
+
+@media (min-width: 937px) and (max-width: 1160px) {
+  .titre_hebergements {
+    width: 100%;
+    margin-left: 1vw;
+  }
+
+  #article_hebergements .hotel {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hotel img {
+    height: 154px;
+    width: 334px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.15);
+  }
+
+  #article_hebergements {
+    width: 91vw;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.25em;
+  }
+
+  .prix {
+    margin-top: 0;
+  }
+
+  .afficher {
+    margin-left: 1vw;
+  }
+}
+
+/***************SECTION HEBERGEMENTS/ARTICLE HEBERGEMENTS: 936px;*************/
+
+@media (min-width: 796px) and (max-width: 936px) {
+  .titre_hebergements {
+    width: 100%;
+    margin-left: 4vw;
+  }
+
+  #article_hebergements .hotel {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hotel img {
+    height: 112px;
+    width: 328px;
+  }
+
+  #article_hebergements {
+    width: 88vw;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.25em;
+  }
+
+  .prix {
+    margin-top: 0;
+  }
+}
+
+/***************SECTION HEBERGEMENTS/ARTICLE HEBERGEMENTS: 795px;*************/
+
+@media (min-width: 376px) and (max-width: 795px) {
+  #article_hebergements {
+    width: 85vw;
+  }
+  #article_hebergements .hotel {
+    background-color: #deebff;
+  }
+  .hotel {
+    display: flex;
+    width: 85vw;
+  }
+  .hotel img {
+    height: 35vh;
+    width: 45vw;
+    object-fit: cover;
+    object-position: 0 74%;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+  }
+}
+
+/***************SECTION HEBERGEMENTS/ARTICLE HEBERGEMENTS MOBILE: 375px*************/
+@media all and (max-width: 375px) {
+  #section_hebergements {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-bottom: 1.25em;
+  }
+  .titre_hebergements {
+    width: auto;
+  }
+
   #article_hebergements {
     background-color: white;
     margin: 1.2em;
@@ -184,13 +285,13 @@
   .img {
     height: 112px;
     width: 328px;
-
     object-fit: cover;
     object-position: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.15);
   }
+
   #article_hebergements {
     display: flex;
     flex-direction: column;
@@ -207,8 +308,9 @@
     margin-top: 1em;
     margin-left: 6%;
   }
-  /*fermeture de hebergements*/
+  /*fermeture de hebergements pour mobile*/
 }
+
 /* aside populaires pour mobile*/
 @media all and (max-width: 499px) {
   .conteneur_populaires {
