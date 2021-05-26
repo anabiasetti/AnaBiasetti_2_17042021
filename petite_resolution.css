@@ -154,6 +154,7 @@
 @media all and (max-width: 1160px) {
   #aside_populaires {
     padding: 1em;
+    width: 100vw;
   }
   .description_populaires {
     margin: 6px 32px;
@@ -203,6 +204,37 @@
   }
 }
 
+@media all and (max-width: 1129px) {
+  #article_hebergements {
+    width: 91vw;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em;
+  }
+}
+@media (min-width: 967px) and (max-width: 1111px) {
+  .titre_hebergements,
+  .afficher {
+    margin-left: 5vw;
+  }
+
+  #article_hebergements {
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0.5em;
+  }
+
+  .hotel img {
+    height: 154px;
+    width: 400px;
+  }
+}
+
 /***************SECTION HEBERGEMENTS/ARTICLE HEBERGEMENTS: 936px;*************/
 
 @media (min-width: 796px) and (max-width: 936px) {
@@ -241,9 +273,7 @@
   #article_hebergements {
     width: 85vw;
   }
-  #article_hebergements .hotel {
-    background-color: #deebff;
-  }
+
   .hotel {
     display: flex;
     width: 85vw;
@@ -331,6 +361,7 @@
 }
 
 /***************ACTIVITES: 1160px;*************/
+
 @media all and (max-width: 1160px) {
   .totalite_figures {
     margin-top: 32px;
@@ -353,6 +384,7 @@
   .figure_double {
     gap: 2vh;
   }
+
   .image_unique,
   .image_reduit {
     height: 132px;
