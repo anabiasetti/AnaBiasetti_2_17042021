@@ -361,7 +361,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 34 px;
+    gap: 34px;
   }
 
   footer h2 {
