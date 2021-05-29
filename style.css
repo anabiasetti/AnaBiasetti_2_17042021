@@ -114,6 +114,7 @@ main {
   border-bottom-left-radius: 0.75em;
   border-right: 0.0625em #f2f2f2 solid;
   padding: 0.875em;
+  cursor: pointer;
 }
 /* Rechercher */
 
@@ -137,6 +138,7 @@ main {
   border-bottom-right-radius: 1em;
   padding-right: 2em;
   padding-left: 1.6em;
+  cursor: pointer;
 }
 
 /* Section filtres-barre:economique, familial,romantique, animaux*/
@@ -162,6 +164,7 @@ main {
   padding-right: 0.875em;
   font-size: 93.75%;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .filtre:hover {
@@ -236,10 +239,9 @@ main {
 .afficher {
   font-size: 1em;
   font-weight: 700;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 104px;
+  margin-top: 2em;
   width: 100%;
+  color: black;
 }
 
 .img {
@@ -359,7 +361,6 @@ main {
   margin: 0;
   padding: 0;
   gap: 1em;
-  /*4.375em;*/
 }
 
 /*Images du section_activites*/
@@ -394,8 +395,6 @@ main {
 .image_unique {
   width: 100%;
   height: 25em;
-  /*width: auto;
-  height: 398px;*/
   object-fit: cover;
   object-position: center;
   border-top-left-radius: 24px;
@@ -405,12 +404,12 @@ main {
   height: 180px;
 }
 .img_reduit2 {
-  height: 140px;
+  height: 143px;
 }
 
 .titre_images {
   color: black;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   display: flex;
   align-items: center;

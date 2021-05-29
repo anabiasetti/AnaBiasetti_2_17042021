@@ -248,7 +248,7 @@
 @media all and (max-width: 936px) {
   .titre_hebergements {
     width: 100%;
-    margin-left: 4vw;
+    margin-left: 6vw;
   }
 
   #article_hebergements .hotel {
@@ -311,17 +311,23 @@
     margin-top: 32px;
     gap: 2vh;
   }
-
   .titre_images {
-    display: flex;
-    align-items: center;
+    font-size: 0.75em;
   }
 }
 
-@media all and (max-width: 765px) {
+@media all and (max-width: 960px) {
+  .titre_activites {
+    margin-left: 4vw;
+  }
+
   .totalite_figures {
     column-gap: 0;
     justify-content: space-evenly;
+  }
+
+  .titre_images {
+    font-size: 1em;
   }
   .figure {
     width: 45vw;
@@ -330,19 +336,31 @@
 
 @media all and (max-width: 565px) {
   .titre_activites {
-    margin-left: 6%;
+    margin-left: 8vw;
   }
   .figure {
-    width: 80vw;
+    width: 85vw;
   }
   .figure_double {
     gap: 2vh;
   }
-
   .image_unique,
-  .image_reduit {
+  .img_reduit1,
+  .img_reduit2 {
     height: 132px;
     width: auto;
+  }
+  #port .image_unique {
+    object-position: 0 20%;
+  }
+  #notredame .image_unique {
+    object-position: 0 20%;
+  }
+  #longchamp .image_unique {
+    object-position: 0 37%;
+  }
+  #frioul .image_unique {
+    object-position: 0 37%;
   }
 }
 
