@@ -32,7 +32,7 @@ header {
   margin-top: 2.01%;
 }
 
-header nav {
+#navigation {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -279,12 +279,6 @@ main {
   justify-content: space-between;
 }
 
-#aside_populaires {
-  display: inline-block;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .img_populaires {
   width: 6.25em;
   object-fit: cover;
@@ -314,13 +308,6 @@ main {
 
 .description_populaires * {
   margin: 0;
-}
-
-.description_populaires .nom {
-  display: inline-block;
-  justify-content: start;
-  margin-top: 0;
-  flex-wrap: wrap;
 }
 
 .prix {
