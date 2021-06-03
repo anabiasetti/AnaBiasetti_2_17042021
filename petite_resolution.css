@@ -5,11 +5,12 @@
   header {
     margin: 0;
     flex-direction: column;
+    margin-top: 5%;
   }
 
   #login {
     position: absolute;
-    top: 24px;
+    top: 47px;
     right: 16px;
   }
 
@@ -17,9 +18,15 @@
     padding-left: 16px;
   }
 
+  #navigation {
+    padding-top: 10px;
+  }
   .menu {
     width: 100%;
     gap: 0;
+  }
+  .menu a {
+    padding-top: 0;
   }
 
   .heb,
@@ -34,6 +41,7 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    padding-bottom: 13px;
   }
 
   #activites {

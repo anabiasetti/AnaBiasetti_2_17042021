@@ -2,6 +2,8 @@ body {
   font-family: "Raleway", sans-serif;
   color: black;
   margin: 0;
+  max-width: 1500px;
+  margin: auto;
 }
 
 h2 {
@@ -425,7 +427,7 @@ footer section {
 }
 
 /************** Ecrans 4k et plus ********************/
-@media all and (min-width: 1970px) {
+/*@media all and (min-width: 1970px) {
   header,
   main {
     min-width: 1890px;
@@ -441,4 +443,4 @@ footer section {
   footer {
     justify-content: space-around;
   }
-}
+}*/
