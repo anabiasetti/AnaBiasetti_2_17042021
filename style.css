@@ -1,7 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
   color: black;
-  margin: 0;
   max-width: 1500px;
   margin: auto;
 }
@@ -250,7 +249,9 @@ main {
 .img {
   height: 10vh;
   min-height: 90px;
+  max-height: 135px;
   width: 17vw;
+  max-width: 255px; /* 17 x 15px (15px = 1% du max-width du body)*/
   object-fit: cover;
   object-position: center;
   border-top-left-radius: 10px;
@@ -362,7 +363,7 @@ main {
 /*figure unique*/
 .figure {
   width: 22vw;
-
+  max-width: 330px; /* 22 x 15px (15px = 1% du max-width du body)*/
   border-radius: 24px;
   border: 1px solid #f2f2f2;
   box-shadow: 2px 2px 2px 2px rgba(242, 242, 242, 0.8);
@@ -420,27 +421,8 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding: 16px 251px 48px 28px;
-  margin-top: 130px;
+  margin-top: 60px;
 }
 footer section {
   width: 256px;
 }
-
-/************** Ecrans 4k et plus ********************/
-/*@media all and (min-width: 1970px) {
-  header,
-  main {
-    min-width: 1890px;
-    width: 67vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .figure {
-    width: 16vw;
-  }
-
-  footer {
-    justify-content: space-around;
-  }
-}*/
